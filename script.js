@@ -2,8 +2,8 @@ function clearDisplay(){
     document.getElementById("display-bar").innerHTML = "";
 }
 
-function display(UserInput){
-    document.getElementById("display-bar").innerHTML +=  UserInput;
+function display(userInput){
+    document.getElementById("display-bar").innerHTML +=  userInput;
 }
 
 function calculate(){
